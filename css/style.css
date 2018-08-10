@@ -966,7 +966,8 @@ Elements
 
 
 .badge.custom-badge.red {
-	background-color: #e9372e;
+	background-color: #2E3092;
+	padding: 5px;
 }
 
 /* box */
