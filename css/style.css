@@ -632,7 +632,7 @@ hr.bold {
 .paddingtop-30{padding-top:30px !important;}
 .paddingtop-40{padding-top:40px !important;}
 .paddingtop-50{padding-top:50px !important;}
-.paddingtop-60{padding-top:170px !important;}
+.paddingtop-60{padding-top:77px !important;}
 .paddingtop-70{padding-top:70px !important;}
 .paddingtop-80{padding-top:80px !important;}
 .paddingtop-90{padding-top:90px !important;}
@@ -644,7 +644,8 @@ hr.bold {
 .paddingbot-30{padding-bottom:30px !important;}
 .paddingbot-40{padding-bottom:40px !important;}
 .paddingbot-50{padding-bottom:50px !important;}
-.paddingbot-60{padding-bottom:60px !important;}
+/* tirei a pedido de artur 
+.paddingbot-60{padding-bottom:60px !important;}*/
 .paddingbot-70{padding-bottom:70px !important;}
 .paddingbot-80{padding-bottom:80px !important;}
 .paddingbot-90{padding-bottom:90px !important;}
@@ -656,7 +657,7 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 150px;
+    padding-top: 55px;
 	display:block;
     position:relative;
     z-index:120;
@@ -949,7 +950,7 @@ Buttons
   padding: 10px 16px;
   font-size: 20px;
   line-height: 1.5em;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 /* =======================
@@ -1047,7 +1048,7 @@ Elements
 }
 
 .cbp-filter-item {
-	border-radius: 3px;
+	border-radius: 0px;
 }
 .cbp-l-filters-alignLeft .cbp-filter-item {
     font: 600 12px/29px "Open Sans", sans-serif;
@@ -1102,7 +1103,7 @@ Elements
 
 .item img {
     display: block;
-    width: 100%;
+    width: 94%;
     height: auto;
 }	
 
@@ -2087,4 +2088,15 @@ a.btn:focus{
 	.intro-content {
 		padding:250px 0 0;
 	}
+	
+	
 }
+
+.aumentoOpacity:hover {
+		
+		-webkit-transform: scale(1.3);
+        -ms-transform: scale(2.3);
+        transform: scale(1.3);
+		 transition: all 0.6s linear;
+	}
+
