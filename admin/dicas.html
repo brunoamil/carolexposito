@@ -134,13 +134,13 @@
                       <form class="forms-sample">
                           <div class="form-group row">
                               <h4>Título da dica:</h4>
-                              <label for="exampleInputName1"></label>
-                              <input type="text" class="form-control" id="exampleInputName1" placeholder="Digite o titulo da dica">
+                              <label for="dicaName"></label>
+                              <input type="text" class="form-control" id="dicaName" placeholder="Digite o titulo da dica">
                             </div>
                         <div class="form-group row">
                             <h4>Digite o texto da dica:</h4>
-                            <label for="exampleTextarea1"></label></br>
-                              <textarea class="form-control" id="exampleTextarea1" rows="10" placeholder="Não deixe este campo vazio, pois o site irá ficar sem informação."></textarea>
+                            <label for="textoArea"></label></br>
+                              <textarea class="form-control" id="textoArea" rows="10" placeholder="Não deixe este campo vazio, pois o site irá ficar sem informação."></textarea>
                         </div>
                         <button type="submit" class="btn btn-success mr-2">Postar</button>
                         <button type="submit" class="btn btn-success mr-2" id="atualizarDica">Atualizar</button>
@@ -216,11 +216,14 @@
    
   </div>
   
-  
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+  <script src="../app/firebase.js"></script>
+   
   <script src="js/vendor.bundle.base.js"></script>
   <script src="js/vendor.bundle.addons.js"></script>
   <script src="js/off-canvas.js"></script>
   <script src="js/misc.js"></script>
+  <script src="js/adminFirebase.js"></script>
 </body>
 
 </html>

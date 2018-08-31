@@ -143,23 +143,28 @@
                   <div class="card">
                     <div class="card-body">
                      
+
                       
                         <form class="forms-sample">
                             <div class="form-group row">
                                 <h4>Endereço 01:</h4>
-                                <label for="exampleInputName1"></label>
-                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                <label for="bairroAtendimento"></label>
+                                <input type="text" class="form-control" id="bairroAtendimento" placeholder="Bairro">
+                                <label for="enderecoAtendimento"></label>
+                                <input type="text" class="form-control" id="enderecoAtendimento" placeholder="Endereço">
                               </div>
                          
                           
-                          <button type="submit" class="btn btn-success mr-2">Atualizar</button>
+                          <button type="submit" id="atualizarAtendimento" class="btn btn-success mr-2">Atualizar</button>
                         
                         </form>
                         <form class="forms-sample" style="margin-top: 20px;">
                             <div class="form-group row">
                                 <h4>Endereço 02:</h4>
-                                <label for="exampleInputName1"></label>
-                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                <label for="bairroAtendimento1"></label>
+                                <input type="text" class="form-control" id="bairroAtendimento1" placeholder="Bairro">
+                                <label for="enderecoAtendimento1"></label>
+                                <input type="text" class="form-control" id="enderecoAtendimento1" placeholder="Endereço">
                               </div>
                          
                           <button type="submit" class="btn btn-success mr-2">Atualizar</button>
@@ -168,8 +173,10 @@
                         <form class="forms-sample" style="margin-top: 20px;">
                             <div class="form-group row">
                                 <h4>Endereço 03:</h4>
-                                <label for="exampleInputName1"></label>
-                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                <label for="bairroAtendimento2"></label>
+                                <input type="text" class="form-control" id="bairroAtendimento2" placeholder="Bairro">
+                                <label for="enderecoAtendimento2"></label>
+                                <input type="text" class="form-control" id="enderecoAtendimento2" placeholder="Endereço">
                               </div>
                          
                           
@@ -200,12 +207,19 @@
     </div>
     
   </div>
-  
-  
+
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+  <script src="../app/firebase.js"></script>
+
   <script src="js/vendor.bundle.base.js"></script>
   <script src="js/vendor.bundle.addons.js"></script>
   <script src="js/off-canvas.js"></script>
   <script src="js/misc.js"></script>
+  <script src="js/adminFirebase.js"></script>
+
+ 
+ 
+ 
 </body>
 
 </html>
