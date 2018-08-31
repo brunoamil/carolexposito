@@ -35,15 +35,15 @@ firebase.database().ref('dicas').on('value', function (snapshot) {
 // --------------------------------------------- Locais de atendimento ------------
 
 
-
+/*
 var bairroAtendiment = document.getElementById('bairroAtendimento');
 var enderecoAtendiment = document.getElementById('enderecoAtendimento');
 
-/*var bairroAtendiment1 = document.getElementById('bairroAtendimento1');
+var bairroAtendiment1 = document.getElementById('bairroAtendimento1');
 var enderecoAtendiment1 = document.getElementById('enderecoAtendimento1');
 
 var bairroAtendiment2 = document.getElementById('bairroAtendimento2');
-var enderecoAtendiment2 = document.getElementById('enderecoAtendimento2'); */
+var enderecoAtendiment2 = document.getElementById('enderecoAtendimento2'); 
 
 var atualizarAtendimento = document.getElementById('atualizarAtendimento');
 
@@ -63,4 +63,4 @@ function create(bairroAtendiment, enderecoAtendiment) {
 
 }
 
-console.log("brunoo");
+console.log("brunoo");*/
